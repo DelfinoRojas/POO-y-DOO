@@ -15,10 +15,5 @@ namespace modulo1
             Console.WriteLine($"{Nombre} está caminando…");
             distancia += pasos;
         }
-
-        public void Resumen()
-        {
-            Console.WriteLine($"{Nombre} ha caminado {distancia} pasos");
-        }
     }
 }
